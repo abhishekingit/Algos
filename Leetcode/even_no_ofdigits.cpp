@@ -12,16 +12,12 @@ int findNumbers(vector<int>& nums) {
         temp = nums[i];
         while(temp != 0) {
             temp = temp / 10;
-            count++;
-            
+            count++;            
         }   
         if(count % 2 == 0) {
             evenNo++;
-
         } 
-
     }
-
     return evenNo;
 
 }
@@ -35,12 +31,10 @@ int main() {
     vector<int> nums(n);
     cout<<"Enter the numbers in the array"<<endl;
     for(int i = 0; i<n; i++) {
-        cin>>nums[i];
-        
+        cin>>nums[i];        
     }
     int evenNoDigits = findNumbers(nums);
-
     cout<<"Numbers with Even Number of Digits: "<<evenNoDigits<<endl;
-
+    return 0;
 
 }
