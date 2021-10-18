@@ -1,4 +1,4 @@
-class arraySort {
+class arraySort012 {
 
     static void sort012(int arr[], int size) {
         int numofZeros = 0, numofOnes = 0, numofTwos = 0;
