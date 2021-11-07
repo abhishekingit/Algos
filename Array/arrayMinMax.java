@@ -30,7 +30,7 @@ public class arrayMinMax {
     }
 
     public static void main(String args[]) {
-        int numbers[] = { 1, 4, 3, 2, 6, 5 };
+        int numbers[] = { 1, 4, 4, 2, 6, 5 };
         Pair p = MinMax(numbers, numbers.length - 1);
         System.out.println(
                 "The max element in this array is " + p.max + " and the min element in this array is " + p.min);
