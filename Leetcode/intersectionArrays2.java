@@ -42,7 +42,7 @@ public class intersectionArrays2 {
     }
 
     public static void main(String[] args) {
-        int numbers1[] = { 4, 9, 5 };
+        int numbers1[] = { 4, 9, 5, 4, 9 };
         int numbers2[] = { 9, 4, 9, 8, 4 };
         int[] result = intersect(numbers1, numbers2);
         for (int x : result) {
